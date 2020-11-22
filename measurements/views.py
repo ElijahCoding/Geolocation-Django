@@ -1,3 +1,5 @@
 from django.shortcuts import render
+from .models import Measurement
 
-# Create your views here.
+def calculate_distance_view(request):
+    pass
