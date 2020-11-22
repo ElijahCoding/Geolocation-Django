@@ -3,6 +3,6 @@ from .views import calculate_distance_view
 
 app_name = 'measurements'
 
-urlspatterns = [
+urlpatterns = [
     path('', calculate_distance_view, name='calculate-view')
 ]
